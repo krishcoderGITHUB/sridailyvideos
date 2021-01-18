@@ -1,0 +1,43 @@
+<html>
+<head>
+<title></title><style type="text/css">body{padding:0;margin:0;}</style><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<body>
+<div class="demoWrapper">
+  <div>
+  <video id="myVideo" poster="
+https://1.bp.blogspot.com/-C41WrhY6scM/YAWw9LI38tI/AAAAAAAABag/KQbh6b-LdqI4u18z63VoJuUvuo9I51VtwCLcBGAsYHQ/s320/image%2B%25281%2529.png" 
+
+src="
+https://drive.google.com/uc?id=1Bt9RKNBIECDnQ0_1RDPXMr47NHWkDpd5
+" style="width:100%;" controls></video></div>
+     <center>
+     <button onclick="set2()" class="btn btn-outline-primary">2×</button>
+        <button onclick="set15()" class="btn btn-outline-primary">1.5×</button>      
+       <button onclick="set1()" class="btn btn-outline-primary">1×</button><br>
+       <button id="watch" onclick="watch360()" class="btn btn-link">Click to watch in <i id="q">360p</i></button><br>       
+     </center>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script type="text/javascript">
+function set2(){var vid = document.getElementById("myVideo");
+vid.playbackRate = 2;}
+function set1(){var vid = document.getElementById("myVideo");
+vid.playbackRate = 1;}
+function set15(){var vid = document.getElementById("myVideo");
+vid.playbackRate = "1.5";}
+function watch360(){
+var b = document.querySelector("#myVideo");
+if(document.getElementById("q").textContent == "360p"){
+b.setAttribute("src", "https://drive.google.com/uc?id=1UTxkQjO_8F9HV3o1jdoXUEZP0F6BopSH");
+document.getElementById("q").innerHTML = "144p";
+}else{b.setAttribute("src", "https://drive.google.com/uc?id=1Bt9RKNBIECDnQ0_1RDPXMr47NHWkDpd5");
+document.getElementById("q").innerHTML = "360p";
+}}
+
+</script>
+</body>
+</html>
