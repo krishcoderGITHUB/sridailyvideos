@@ -1,0 +1,29 @@
+
+<html>
+<head>
+<title></title><style type="text/css">
+.containiframe{width:95vw; height:40vh; position: relative;}
+.full , iframe{width:95vw;height:40vh;}
+.morevi3{
+     z-index:1;
+     width:25vw; 
+     height:20%; 
+     right:0;position: absolute; 
+   background-color:red;
+}
+</style>
+</head>
+<body><div class="containiframe"><div class="morevi3"></div>
+
+<div style="
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-bottom: 75%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+">
+
+<iframe src="https://drive.google.com/file/u/5/d/1s3KLe-0qIJJE2WFBdId8wjQDFJQVCu2Z/preview" style="z-index:2;" frameborder="0" allowfullscreen>
+</iframe>
+</div></div>
+</body>
+</html>
