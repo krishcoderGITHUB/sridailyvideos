@@ -13,7 +13,7 @@
 <div class="demoWrapper">
   <div>
   <video controlsList="nodownload" id="myVideo" 
-src="https://drive.google.com/uc?id=1X5reIz7MW8Qc249eBdWbhDhBHVoVuBva" style="width:100%;" controls></video></div>
+src="https://drive.google.com/uc?id=1X5reIz7MW8Qc249eBdWbhDhBHVoVuBva&export=download" style="width:100%;" controls></video></div>
      <center>
      <button onclick="set2()" class="btn btn-outline-primary">2×</button>
         <button onclick="set15()" class="btn btn-outline-primary">1.5×</button>      
@@ -24,7 +24,7 @@ src="https://drive.google.com/uc?id=1X5reIz7MW8Qc249eBdWbhDhBHVoVuBva" style="wi
        <p style="position: fixed;left:10px;bottom:19px;color:blue;font-size:12px;"><b>Video rights are reserved to <a target="_blank" href="https://www.shriraminstitute.info" >SRI</a>.</b></p><br>
   <marquee style="position: fixed;
      bottom:0px;"><b>
-     Life Processes Class 10th Part6
+     Life Processes Class 10th Part5
      </b> </marquee></div>
 </div>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -41,10 +41,10 @@ function watch360(){
 var b = document.querySelector("#myVideo");
 var curtime = b.currentTime;
 if(document.getElementById("q").textContent == "360p"){
-b.setAttribute("src", "https://drive.google.com/uc?id=1XYM4DC-s29NImIj88u7wKUwp8gQ-rvkb");
+b.setAttribute("src", "https://drive.google.com/uc?id=1XYM4DC-s29NImIj88u7wKUwp8gQ-rvkb&export=download");
 
 document.getElementById("q").innerHTML = "144p";
-}else{b.setAttribute("src", "https://drive.google.com/uc?id=1X5reIz7MW8Qc249eBdWbhDhBHVoVuBva");
+}else{b.setAttribute("src", "https://drive.google.com/uc?id=1X5reIz7MW8Qc249eBdWbhDhBHVoVuBva&export=download");
 document.getElementById("q").innerHTML = "360p";
 }
 b.currentTime = curtime;
