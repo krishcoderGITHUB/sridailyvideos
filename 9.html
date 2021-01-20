@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>  Life Processes Class 10th Part9</title><style type="text/css">body{padding:0;margin:0;
+background:url(' https://1.bp.blogspot.com/-WNiZ69_A5X8/YAcAZLNF2lI/AAAAAAAABa4/XDJCx98tcMQa4evKe4mMueHvaOtt190xQCLcBGAsYHQ/s420/161107117976892909.png '); background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position:bottom center;
+  background-size:contain;
+
+  }button,center{z-index:9;}div{  background:#ADD8E6;}
+  </style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<body>
+
+  <div>
+  <video controlsList="nodownload" id="myVideo" 
+src="https://www.googleapis.com/drive/v3/files/1ji5WPh-J9haD6zV2GuedDHOlJgQiIkds?alt=media&key=AIzaSyD2SKYzo_nd_ny4ojXh35NgF85RwxcXEx4" type="video/mp4" style="width:100vw;" controls></video></div>
+     <center>
+
+    <button onclick="set2()" class="btn btn-outline-primary">2×</button>
+        <button onclick="set15()" class="btn btn-outline-primary">1.5×</button>      
+       <button onclick="set1()" class="btn btn-outline-primary">1×</button><br>
+       <button id="watch" onclick="watch360()" class="btn btn-link">Click to watch in <i id="q">360p</i></button><br>       
+     </center>
+     <p style="position: fixed;right:10px;bottom:19px;color:blue;font-size:12px;"><b>Powered by KC</b></p><br>
+       <p style="position: fixed;left:10px;bottom:19px;color:blue;font-size:12px;"><b>Video rights are reserved to <a target="_blank" href="https://www.shriraminstitute.info" >SRI</a>.</b></p><br>
+  <marquee style="position: fixed;
+     bottom:0px;"><b>
+     Life Processes Class 10th Part9
+     </b> </marquee></div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script type="text/javascript">
+function set2(){var vid = document.getElementById("myVideo");
+vid.playbackRate = 2;}
+function set1(){var vid = document.getElementById("myVideo");
+vid.playbackRate = 1;}
+function set15(){var vid = document.getElementById("myVideo");
+vid.playbackRate = "1.5";}
+function watch360(){
+var b = document.querySelector("#myVideo");
+var curtime = b.currentTime;
+if(document.getElementById("q").textContent == "360p"){
+b.setAttribute("src", "https://www.googleapis.com/drive/v3/files/1buDdaz8FaRccfx136qBUWBUiroMbcNBH?alt=media&key=AIzaSyD2SKYzo_nd_ny4ojXh35NgF85RwxcXEx4");
+
+document.getElementById("q").innerHTML = "144p";
+}else{b.setAttribute("src", "https://www.googleapis.com/drive/v3/files/1ji5WPh-J9haD6zV2GuedDHOlJgQiIkds?alt=media&key=AIzaSyD2SKYzo_nd_ny4ojXh35NgF85RwxcXEx4");
+document.getElementById("q").innerHTML = "360p";
+}
+b.currentTime = curtime;
+}
+
+</script>
+</body>
+</html>
