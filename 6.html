@@ -13,7 +13,7 @@
 <div class="demoWrapper">
   <div>
   <video controlsList="nodownload" id="myVideo" 
-src="https://drive.google.com/uc?id=1mqYDoDjOLk6Dhp0lkMVgKo_6ehZt1kJm" style="width:100%;" controls></video></div>
+src="https://drive.google.com/uc?id=1mqYDoDjOLk6Dhp0lkMVgKo_6ehZt1kJm&export=download" style="width:100%;" controls></video></div>
      <center>
      <button onclick="set2()" class="btn btn-outline-primary">2×</button>
         <button onclick="set15()" class="btn btn-outline-primary">1.5×</button>      
@@ -41,10 +41,10 @@ function watch360(){
 var b = document.querySelector("#myVideo");
 var curtime = b.currentTime;
 if(document.getElementById("q").textContent == "360p"){
-b.setAttribute("src", "https://drive.google.com/uc?id=1-YredajzJgxlYZOj7LXL8zfmUE8CQB9v");
+b.setAttribute("src", "https://drive.google.com/uc?id=1-YredajzJgxlYZOj7LXL8zfmUE8CQB9v&export=download");
 
 document.getElementById("q").innerHTML = "144p";
-}else{b.setAttribute("src", "https://drive.google.com/uc?id=1mqYDoDjOLk6Dhp0lkMVgKo_6ehZt1kJm");
+}else{b.setAttribute("src", "https://drive.google.com/uc?id=1mqYDoDjOLk6Dhp0lkMVgKo_6ehZt1kJm&export=download");
 document.getElementById("q").innerHTML = "360p";
 }
 b.currentTime = curtime;
